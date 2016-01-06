@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1451556459 source:c:\users\stefan\desktop\frogger\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"SDL_Functii.h"
+	"DefinesAndConstants.h"
+	"ImagesAndMap.h"
+
+1451556522 c:\users\stefan\desktop\frogger\sdl_functii.h
+	"DefinesAndConstants.h"
+	"Obstacol.h"
+
+1451515389 c:\users\stefan\desktop\frogger\definesandconstants.h
+
+1451556107 c:\users\stefan\desktop\frogger\imagesandmap.h
+	"DefinesAndConstants.h"
+
+1450955104 c:\users\stefan\desktop\frogger\obstacol.h
+	"DefinesAndConstants.h"
+	"ImagesAndMap.h"
+
