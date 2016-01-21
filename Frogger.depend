@@ -23,3 +23,27 @@
 	"DefinesAndConstants.h"
 	"ImagesAndMap.h"
 
+1453361368 source:c:\users\stefan\documents\github\frogger\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"SDL_Functii.h"
+	"DefinesAndConstants.h"
+	"ImagesAndMap.h"
+
+1453361578 c:\users\stefan\documents\github\frogger\sdl_functii.h
+	"DefinesAndConstants.h"
+	"Obstacol.h"
+
+1453361352 c:\users\stefan\documents\github\frogger\definesandconstants.h
+
+1453360860 c:\users\stefan\documents\github\frogger\obstacol.h
+	"DefinesAndConstants.h"
+	"ImagesAndMap.h"
+
+1451556107 c:\users\stefan\documents\github\frogger\imagesandmap.h
+	"DefinesAndConstants.h"
+

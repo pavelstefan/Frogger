@@ -38,6 +38,7 @@ int Init()
 }
 
 void Close(){
+    printf("Jocul se inchide!");
     FILE *saveGame = NULL;
     saveGame = fopen("SaveGame.dat", "wb");
     fwrite(&HighScore, sizeof(int), 1, saveGame);
@@ -59,6 +60,7 @@ void Close(){
     SDL_DestroyRenderer(Renderer);
     SDL_DestroyWindow(Window);
     SDL_Quit();
+    printf("\nJocul s-a inchis!");
 }
 
 #endif // SDL_FUNCTII_H_INCLUDED

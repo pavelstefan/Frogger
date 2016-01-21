@@ -27,16 +27,15 @@ enum{
     menu
 };
 
-typedef struct Player Player;
-struct Player{
+typedef struct{
     int x, y;
     int Y_lim;
     int lastY;
     int puncte;
     int life;
-};
+}Player;
 
-int VitezaObstacol = 5;
+double VitezaObstacol = 3;
 int Map[MAP_HEIGHT][MAP_WIDTH];
 int Timer;
 int NrObstacole = 0;

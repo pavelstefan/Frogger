@@ -61,8 +61,8 @@ void Game(){
 
             //creste dificultatea jocului
             if(VitezaObstacol < VitezaObstacolMax)
-                if(frog->puncte % 15 == 0)
-                    VitezaObstacol += frog -> puncte /15;
+                if(frog->puncte % 10 == 0)
+                    VitezaObstacol += 0.5;
             break;
         default: printf("meniul nu exista\n");
     }
@@ -177,7 +177,7 @@ void GameLoop(){
 
 void LoadGameAssets(){
     //alocare dinamica si initializare a unor variabile
-    frog = (struct Player*)malloc(sizeof(struct Player));
+    frog = (Player*)malloc(sizeof(Player));
     ResetPlayer();
 
     //incarcare imagini

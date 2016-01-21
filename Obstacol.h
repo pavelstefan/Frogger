@@ -6,8 +6,8 @@
 
 typedef struct Obstacol Obstacol;
 struct Obstacol{
-    int x, y;
-    int speed;
+    double x, y;
+    double speed;
     int type;
     Obstacol *next;
 }*Top = NULL;
@@ -67,7 +67,7 @@ void DrawObstacol(){
 void AnimateObstacol(){
     Obstacol *aux = Top;
     while(aux){
-        aux -> x += aux -> speed;
+        aux -> x += VitezaObstacol;
         aux = aux -> next;
     }
 }
